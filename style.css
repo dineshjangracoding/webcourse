@@ -1,7 +1,47 @@
-.navbar ul li 
-{
-    margin: 10px;
-    padding: 10px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
     display: inline-flex;
     text-align: justify;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+.card{
+    margin: 10px;
+    margin-left: 40%;
+    padding: 10px;
+    height: 450px;
+    width: 300px;
+    border-radius: 5px;
+    outline: auto;
+    font-weight: 100;
+    color: gray;
+}
+
+h6{
+    margin-top: 50px;
+    color: black;
+}
+
+img{
+    border: 0px;
+    border-radius: 5px;
+    outline: none;
+
 }
