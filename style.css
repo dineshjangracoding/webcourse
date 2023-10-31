@@ -1,19 +1,7 @@
-h2{
-    color: white;
-    text-align: center;
-    background-color: gray;
-}
-table
+.navbar ul li 
 {
-    text-align: center;
-    border-style: none;
-}
-th
-{
-    background-color: black;
-    color: white;
-}
-td
-{
-    color: blue;
+    margin: 10px;
+    padding: 10px;
+    display: inline-flex;
+    text-align: justify;
 }
