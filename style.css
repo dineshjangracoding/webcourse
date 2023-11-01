@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+nav{
+   text-align: end;
+    background-color: silver;
+}
 .navbar ul li {
     margin: 5px;
     margin-left: 10px;
@@ -14,12 +18,17 @@
 
 a:link {
     text-decoration: none;
+    color: red;
 }
 
 a:hover {
     color: red;
-    background-color: aqua;
+    background-color: rgb(170, 170, 170);
     font-weight: bold;
+}
+
+a:visited {
+    color: pink;
 }
 
 .card{
